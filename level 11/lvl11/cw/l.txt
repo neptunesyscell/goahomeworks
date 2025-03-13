@@ -1,0 +1,12 @@
+<ol>
+  <li>Preheat your oven to 350°F (175°C).</li>
+  <li>Mix the dry ingredients (flour, baking powder) in a bowl.</li>
+  <li>Cream together butter and sugar until light and fluffy.</li>
+  <li>Add eggs and vanilla extract, mix well.</li>
+  <li>Gradually add the dry ingredients to the wet mixture.</li>
+  <li>Stir in chocolate chips.</li>
+  <li>Drop spoonfuls of dough onto a baking sheet.</li>
+  <li>Bake for 10-12 minutes or until golden brown.</li>
+  <li>Cool on a wire rack before serving.</li>
+  <li>eat</li>
+</ol>

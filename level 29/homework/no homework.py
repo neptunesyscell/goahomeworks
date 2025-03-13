@@ -1,0 +1,1 @@
+print("kartoshka free and heinz godly combo")

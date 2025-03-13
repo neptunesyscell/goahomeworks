@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drop-down მენიუ</title>
+    <style>
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            background-color: #333;
+            display: flex;
+        }
+        nav ul li {
+            position: relative;
+        }
+        nav ul li a {
+            display: block;
+            padding: 10px 20px;
+            color: white;
+            text-decoration: none;
+        }
+        nav ul li:hover {
+            background-color: #444;
+        }
+        nav ul li ul {
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background-color: #333;
+            display: none;
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li:hover ul {
+            display: block;
+        }
+        nav ul li ul li a {
+            padding: 10px 15px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>
+                <a href="#">მთავარი</a>
+            </li>
+            <li>
+                <a href="#">სექცია</a>
+                <ul>
+                    <li><a href="#">ქვე მენიუ 1</a></li>
+                    <li><a href="#">ქვე მენიუ 2</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">კონტაქტი</a>
+            </li>
+        </ul>
+    </nav>
+</body>
+</html>
+

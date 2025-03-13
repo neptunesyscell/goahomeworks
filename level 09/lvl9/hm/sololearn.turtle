@@ -1,0 +1,38 @@
+import turtle
+
+screen = turtle.Screen()
+screen.bgcolor("gray")
+
+pen = turtle.Turtle()
+pen.speed(5)
+
+def draw_tombstone():
+    pen.penup()
+    pen.goto(-100, -50)
+    pen.pendown()
+    pen.begin_fill()
+    pen.color("gray")
+    for _ in range(2):
+        pen.forward(200)
+        pen.left(90)
+        pen.forward(100)
+        pen.left(90)
+    pen.end_fill()
+
+def write_text():
+    pen.penup()
+    pen.goto(-90, 20)
+    pen.pendown()
+    pen.color("white")
+    pen.write("sololearn account", font=("Arial", 16, "bold"))
+
+def draw_graveyard():
+    draw_tombstone()
+    write_text()
+
+draw_graveyard()
+
+pen.hideturtle()
+turtle.done()
+
+

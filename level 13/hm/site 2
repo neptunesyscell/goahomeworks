@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ჩემი საყვარელი ცხოველები - კატები</title>
+    <style>
+        img {
+            margin: 10px;
+            border: 2px solid black;
+            max-width: 100%;
+        }
+        p {
+            font-size: 16px;
+            line-height: 1.5;
+        }
+    </style>
+</head>
+<body>
+    <h1>ჩემი საყვარელი ცხოველები: კატები</h1>
+    
+    <img src="cat1.jpg" width="300" height="200" alt="კატა 1">
+    <img src="cat2.jpg" width="300" height="200" alt="კატა 2">
+    <img src="cat3.jpg" width="300" height="200" alt="კატა 3">
+    
+    <p>
+        კატები ჩემი საყვარელი ცხოველები არიან მათ თავიანთი დამთრგუნველი და მხიარული ქცევებით. 
+        მათი თავისუფალი და დამოუკიდებელი ხასიათი საოცრად მიმზიდველია. 
+
+</body>
+</html>
+

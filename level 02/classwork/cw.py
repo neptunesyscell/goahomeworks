@@ -1,0 +1,1 @@
+print("giorgi mandaria 13 wlis ninoshakaia xinkali")

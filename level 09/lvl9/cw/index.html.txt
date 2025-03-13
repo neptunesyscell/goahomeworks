@@ -1,0 +1,4 @@
+<h1>about GOA</h1>
+<p><button>GOA</button>is programing academy</p>
+<p>you can learn about <buton>web developing</button>one day you will be developer too</p>
+<a href="./about.html">abot me</a>

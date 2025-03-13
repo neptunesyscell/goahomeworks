@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inception - Home</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        nav {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            padding: 20px;
+        }
+        img {
+            width: 500px; /* სურათის სიგანე */
+            height: 300px; /* სურათის სიმაღლე */
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+    </nav>
+    <div class="container">
+        <h1>Inception</h1>
+        <img src="inception.jpg" alt="Inception Movie Poster">
+        <p>Welcome to the Home page of our Inception fan site!</p>
+    </div>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inception - About</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        nav {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            padding: 20px;
+        }
+        form {
+            margin-top: 20px;
+        }
+        label, input {
+            display: block;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+    </nav>
+    <div class="container">
+        <h1>About Inception</h1>
+        <p>Inception is a science fiction film directed by Christopher Nolan. It explores the concept of shared dreams and the impact of dreams on reality.</p>
+
+        <h2>Contact Form</h2>
+        <form>
+            <label for="name">სახელი:</label>
+            <input type="text" id="name" name="name" placeholder="თქვენი სახელი" required>
+
+            <label>თქვენი საყვარელი ჟანრი:</label>
+            <input type="radio" id="action" name="genre" value="action">
+            <label for="action">Action</label>
+            <input type="radio" id="sci-fi" name="genre" value="sci-fi">
+            <label for="sci-fi">Sci-Fi</label>
+
+            <input type="submit" value="გაგზავნა">
+        </form>
+    </div>
+</body>
+</html>
+
